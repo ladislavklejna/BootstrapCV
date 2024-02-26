@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Alfa Romeo</title>
+  </head>
+  <header class="navi">
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="./src/logo.png" width="70px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse bg-body-tertiary navbar-collapse"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#history">Historie</a>
+            <a class="nav-link" href="#tech">Technologie</a>
+            <a class="nav-link" href="#pricing">Cenik</a>
+            <a class="nav-link" href="#contact">Kontakt</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <body>
+    <main>
+      <!-- HERO -->
+      <section id="hero">
+        <div class="container">
+          <h1 class="pt-5 pb-1">Alfa Romeo</h1>
+          <h2 class="mt-5">„la meccanica delle emozioni"</h2>
+          <div class="row position">
+            <button
+              type="button"
+              class="btn btn-dark w-100 out"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Cookies
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- HERO END -->
+
+      <!-- MODAL -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title fs-5" id="exampleModalLabel">Cookies</h3>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              distinctio tempora quaerat molestiae hic aliquam quidem quasi
+              dolorum similique autem est sapiente temporibus quam, maxime
+              eveniet ullam illo, officia provident dolor laboriosam accusamus
+              natus dignissimos. Ipsam, praesentium facere odit, quod nulla
+              aliquid ad necessitatibus ipsum animi ducimus earum ut quam esse
+              perspiciatis temporibus consectetur soluta numquam illo nam est!
+              Nihil.
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-success"
+                data-bs-dismiss="modal"
+              >
+                Přijmout
+              </button>
+              <button type="button" class="btn btn-secondary">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-info-square-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm8.93 4.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
+                  />
+                </svg>
+                více info
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- MODAL END -->
+
+      <!-- HISTORY -->
+      <div id="history">
+        <div class="container history">
+          <div class="row">
+            <h2>Historie</h2>
+            <div class="col-md-12 col-lg-8 mt-5">
+              <div class="row">
+                <div class="col">
+                  <div id="carousel" class="carousel slide carousel-fade">
+                    <div class="carousel-indicators">
+                      <button
+                        type="button"
+                        data-bs-target="#carousel"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carousel"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carousel"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                      ></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="./src/4.jpeg"
+                          class="d-block w-100"
+                          alt="Superior"
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>
+                            Some representative placeholder content for the
+                            second slide.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="./src/5.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Second slide label</h5>
+                          <p>
+                            Some representative placeholder content for the
+                            second slide.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="./src/6.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>third slide label</h5>
+                          <p>
+                            Some representative placeholder content for the
+                            second slide.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carousel"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carousel"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-md-12 col-lg-4 mt-5">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
+                doloremque libero sed illum, eligendi molestias blanditiis
+                beatae at atque ut explicabo! Quos rem
+                <span
+                  class="highlight1"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  data-bs-title="adipisicing elit. Totam est ipsum facilis earum vitae sequi"
+                  >praesentium maiores</span
+                >
+                accusantium at atque laborum labore.
+              </p>
+
+              <p>
+                Lorem ipsum dolor sit amet
+                <span
+                  class="highlight2"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  data-bs-title="adipisicing elit. Totam est ipsum facilis earum vitae sequi"
+                  >consectetur</span
+                >
+                adipisicing elit. Totam est ipsum facilis earum vitae sequi
+                nihil non autem, ullam odio error consequatur natus? Suscipit ,
+                eligendi unde maiores obcaecati!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Delectus animi labore eius, obcaecati quibusdam asperiores
+                <span
+                  class="highlight3"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  data-bs-title="adipisicing elit. Totam est ipsum facilis earum vitae sequi"
+                  >temporibus blanditiis</span
+                >
+                tempore expedita ducimus consequuntur deserunt?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- HISTORY END -->
+      <hr class="flag" id="tech" />
+      <!-- TECH -->
+      <section>
+        <div class="container tech">
+          <h2 class="mb-5">Technologie</h2>
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <h3 class="text-center">Eko spalování</h3>
+
+              <div class="row d-none d-md-block">
+                <img class="w-100" src="./src/motor.jpg" />
+              </div>
+              <div class="row">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  ullam dolorum itaque, voluptas ex vitae omnis dicta, enim
+                  laborum, asperiores sequi quam corrupti neque! Vel molestiae
+                  error, ut quas, totam odit adipisci deserunt maxime tempora
+                  impedit, officiis sit est facere?
+                </p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <h3 class="text-center">Aerodynamika</h3>
+
+              <div class="row d-none d-md-block">
+                <img class="w-100" src="./src/f1.jpg" />
+              </div>
+              <div class="row">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  ullam dolorum itaque, voluptas ex vitae omnis dicta, enim
+                  laborum, asperiores sequi quamimpedit, officiis sit est
+                  facere? Corrupti neque! Vel molestiae error, ut quas, totam
+                  odit adipisci deserunt maxime tempora.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <h3 class="text-center">Elektromobilita</h3>
+
+              <div class="row d-none d-md-block">
+                <img class="w-100" src="./src/elektro.jpg" />
+              </div>
+              <div class="row">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  ullam dolorum itaque, voluptas ex vitae omnis dicta, enim
+                  laborum, asperiores sequi quam corrupti neque! Vel molestiae
+                  error, ut quas, totam odit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- TECH END -->
+      <hr class="flag" id="pricing" />
+      <!-- Pricing -->
+      <section>
+        <div class="container pricing">
+          <h2 class="mb-5">Cenik</h2>
+          <div class="row">
+            <div class="col">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Tonale</th>
+                    <th scope="col">Giulia</th>
+                    <th scope="col">Stelvio</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Social</th>
+                    <td>650 000</td>
+                    <td>720 000</td>
+                    <td>1 100 000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Sprint</th>
+                    <td>690 000</td>
+                    <td>780 000</td>
+                    <td>1 170 000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Veloce</th>
+                    <td>720 000</td>
+                    <td>780 000</td>
+                    <td>1 250 000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Quadrifoglio</th>
+                    <td>850 000</td>
+                    <td>950 000</td>
+                    <td>1 400 000</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Pricing end -->
+      <hr id="contact" class="flag" />
+      <!-- CONTACT -->
+      <section>
+        <div class="container contact">
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+              <h2 class="mb-5">Kontakt</h2>
+              <div class="row">
+                <div class="col">
+                  <label for="first">Jméno</label>
+                  <input
+                    class="form-control"
+                    type="text"
+                    name="firstName"
+                    id="first"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <label for="email">E-mail</label>
+                  <input
+                    class="form-control"
+                    type="email"
+                    name="email"
+                    id="mail"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <label for="Textarea">Zpráva</label>
+                  <textarea
+                    class="form-control"
+                    placeholder=""
+                    id="Textarea"
+                    rows="5"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT END -->
+    </main>
+    <footer id="footer">
+      <div class="container footer">
+        <div class="row">
+          <div class="col-12 offset-md-2 col-md-4">
+            <address>
+              <h5>Kontaktní údaje:</h5>
+              <p>
+                <strong>Alfa Romeo</strong><br />
+                Evergreen Terrace 742<br />
+                Springfield<br />
+                USB
+              </p>
+
+              <p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-envelope"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"
+                  />
+                </svg>
+                <strong>Email:</strong>
+                <a href="mailto:info@firma.cz">info@alfaromeo.cz</a><br />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-phone"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"
+                  />
+                  <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+                </svg>
+                <strong> Telefon:</strong>
+                <a href="tel:+123456789">+123456789</a>
+              </p>
+            </address>
+          </div>
+          <div class="col-12 col-md-4">
+            <iframe
+              class="w-100 h-100"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15456.511929674296!2d-89.24729162142707!3d37.7002093199463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8877126d2369f535%3A0x29db45956f57a55!2sEvergreen%20Terrace%20Family%20Housing!5e0!3m2!1scs!2scz!4v1708944123615!5m2!1scs!2scz"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
